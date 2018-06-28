@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DragonQuestFC.ttf">
+            <string>DragonQuestFC</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="initView" id="BYZ-38-t0r" customClass="ViewController" customModule="Quest" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7a-BT-Uh0">
+                                <rect key="frame" x="34" y="44" width="307" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQe-Rn-TDf">
+                                <rect key="frame" x="85" y="492" width="204" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DragonQuestFC" family="DragonQuestFC" pointSize="25"/>
+                                <state key="normal" title="たびをはじめる">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tng-ry-CGx"/>
+                                    <segue destination="dad-nb-eVj" kind="presentation" identifier="toViewController2" id="UT0-KR-s5N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="W7a-BT-Uh0" id="5hz-gZ-z4N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-300" y="653.52323838080963"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="cdN-Rf-EnT">
+            <objects>
+                <viewController storyboardIdentifier="nextView" id="dad-nb-eVj" customClass="ViewController2" customModule="Quest" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X8z-hm-9vY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TTK-Et-2SE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                            </arscnView>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgQ-Hg-vBW">
+                                <rect key="frame" x="48" y="566" width="143" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="jrX-30-9BP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DragonQuestFC" family="DragonQuestFC" pointSize="25"/>
+                                <state key="normal" title="つよいまほうをつかう">
+                                    <color key="titleColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButton:" destination="dad-nb-eVj" eventType="touchUpInside" id="Dtc-KX-JUq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNW-1D-3FF">
+                                <rect key="frame" x="221" y="566" width="98" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="D1S-hg-9yd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DragonQuestFC" family="DragonQuestFC" pointSize="25"/>
+                                <state key="normal" title="にげる"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="dad-nb-eVj" eventType="touchUpInside" id="y2F-bY-hhu"/>
+                                    <action selector="goBack:" destination="dad-nb-eVj" eventType="touchUpInside" id="eyV-9A-JnS"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="toViewController" id="x72-Xk-YVD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="タップでスライムをこうげき！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzk-WF-DL3">
+                                <rect key="frame" x="66" y="39" width="243" height="79"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="VcU-Ub-Ivm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DragonQuestFC" family="DragonQuestFC" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TTK-Et-2SE" firstAttribute="top" secondItem="X8z-hm-9vY" secondAttribute="top" id="3oA-t0-d7g"/>
+                            <constraint firstItem="Tzk-WF-DL3" firstAttribute="trailing" secondItem="FNW-1D-3FF" secondAttribute="trailing" constant="-10" id="4Vv-ds-pQP"/>
+                            <constraint firstItem="Tzk-WF-DL3" firstAttribute="leading" secondItem="1fx-Mg-gaq" secondAttribute="leading" constant="66" id="BaS-DY-40T"/>
+                            <constraint firstItem="1fx-Mg-gaq" firstAttribute="bottom" secondItem="QgQ-Hg-vBW" secondAttribute="bottom" constant="41" id="DDU-AM-c0f"/>
+                            <constraint firstItem="TTK-Et-2SE" firstAttribute="bottom" secondItem="1fx-Mg-gaq" secondAttribute="bottom" id="DbL-bK-Ebb"/>
+                            <constraint firstItem="1fx-Mg-gaq" firstAttribute="trailing" secondItem="Tzk-WF-DL3" secondAttribute="trailing" constant="66" id="EDt-l1-y2P"/>
+                            <constraint firstItem="Tzk-WF-DL3" firstAttribute="top" secondItem="1fx-Mg-gaq" secondAttribute="top" constant="19" id="K2o-C9-xCL"/>
+                            <constraint firstItem="Tzk-WF-DL3" firstAttribute="leading" secondItem="QgQ-Hg-vBW" secondAttribute="leading" constant="18" id="L4w-hq-ZpS"/>
+                            <constraint firstItem="TTK-Et-2SE" firstAttribute="leading" secondItem="X8z-hm-9vY" secondAttribute="leading" id="eqk-fA-PnP"/>
+                            <constraint firstAttribute="trailing" secondItem="TTK-Et-2SE" secondAttribute="trailing" id="fXX-GL-gCI"/>
+                            <constraint firstItem="QgQ-Hg-vBW" firstAttribute="baseline" secondItem="FNW-1D-3FF" secondAttribute="firstBaseline" id="gLu-Ze-cHB"/>
+                            <constraint firstItem="QgQ-Hg-vBW" firstAttribute="top" secondItem="FNW-1D-3FF" secondAttribute="top" id="njG-gR-tjX"/>
+                            <constraint firstItem="FNW-1D-3FF" firstAttribute="leading" secondItem="QgQ-Hg-vBW" secondAttribute="trailing" constant="30" id="uwl-gt-1Le"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1fx-Mg-gaq"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="Tzk-WF-DL3" id="u7u-0T-Q8K"/>
+                        <outlet property="sceneView" destination="TTK-Et-2SE" id="HLS-Kz-CVN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tro-7m-qhx" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="kub-kl-sQ1">
+                    <connections>
+                        <action selector="sceneViewTapped:" destination="dad-nb-eVj" id="noH-Mt-cFv"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="533.60000000000002" y="653.52323838080963"/>
+        </scene>
+    </scenes>
+</document>

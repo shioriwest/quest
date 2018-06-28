@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		975AC2F320C3C26000155EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975AC2F220C3C26000155EEB /* AppDelegate.swift */; };
+		975AC2F520C3C26000155EEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975AC2F420C3C26000155EEB /* ViewController.swift */; };
+		975AC2F820C3C26000155EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975AC2F620C3C26000155EEB /* Main.storyboard */; };
+		975AC2FA20C3C26100155EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975AC2F920C3C26100155EEB /* Assets.xcassets */; };
+		975AC2FD20C3C26100155EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975AC2FB20C3C26100155EEB /* LaunchScreen.storyboard */; };
+		975AC30520C3D46F00155EEB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975AC30420C3D46F00155EEB /* ViewController2.swift */; };
+		975AC31C20C9669E00155EEB /* e001.png in Resources */ = {isa = PBXBuildFile; fileRef = 975AC31A20C9669E00155EEB /* e001.png */; };
+		975AC31D20C9669E00155EEB /* e001.dae in Resources */ = {isa = PBXBuildFile; fileRef = 975AC31B20C9669E00155EEB /* e001.dae */; };
+		975AC32020C9754F00155EEB /* e001c.png in Resources */ = {isa = PBXBuildFile; fileRef = 975AC31E20C9754F00155EEB /* e001c.png */; };
+		975AC32120C9754F00155EEB /* e001b.png in Resources */ = {isa = PBXBuildFile; fileRef = 975AC31F20C9754F00155EEB /* e001b.png */; };
+		975AC32B20C9767A00155EEB /* c16_sp_body1.png in Resources */ = {isa = PBXBuildFile; fileRef = 975AC32A20C9767A00155EEB /* c16_sp_body1.png */; };
+		975AC32F20CF500200155EEB /* DragonQuestFC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 975AC32E20CF4FB400155EEB /* DragonQuestFC.ttf */; };
+		975AC33120D2677A00155EEB /* titlelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 975AC33020D2677A00155EEB /* titlelogo.png */; };
+		975AC33820D2995600155EEB /* Slime_Assistant1_ColladaMax.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 975AC33720D2995500155EEB /* Slime_Assistant1_ColladaMax.DAE */; };
+		975AC33A20D2AD9D00155EEB /* Slime_Assistant3_ColladaMax.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 975AC33920D2AD9C00155EEB /* Slime_Assistant3_ColladaMax.DAE */; };
+		975AC33C20D2ADB100155EEB /* Slime_Low_ColladaMax.DAE in Resources */ = {isa = PBXBuildFile; fileRef = 975AC33B20D2ADB100155EEB /* Slime_Low_ColladaMax.DAE */; };
+		975AC33F20D2ADC100155EEB /* c16_sp_body3.png in Resources */ = {isa = PBXBuildFile; fileRef = 975AC33D20D2ADC100155EEB /* c16_sp_body3.png */; };
+		975AC34020D2ADC100155EEB /* c16_body.png in Resources */ = {isa = PBXBuildFile; fileRef = 975AC33E20D2ADC100155EEB /* c16_body.png */; };
+		975AC34520D4C1F700155EEB /* BattleTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 975AC34220D4C1F600155EEB /* BattleTheme.mp3 */; };
+		975AC34620D4C1F700155EEB /* Overture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 975AC34320D4C1F700155EEB /* Overture.mp3 */; };
+		975AC34720D4C1F700155EEB /* Hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 975AC34420D4C1F700155EEB /* Hit.mp3 */; };
+		975AC34920D4EA7200155EEB /* Victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 975AC34820D4EA7200155EEB /* Victory.mp3 */; };
+		975AC35020D4F1E100155EEB /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 975AC34E20D4F1E000155EEB /* bokeh.png */; };
+		975AC35120D4F1E100155EEB /* Bokeh.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 975AC34F20D4F1E000155EEB /* Bokeh.scnp */; };
+		975AC36220D54DE500155EEB /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 975AC36020D54DE500155EEB /* spark.png */; };
+		975AC36320D54DE500155EEB /* Fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 975AC36120D54DE500155EEB /* Fire.scnp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		975AC2EF20C3C26000155EEB /* Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		975AC2F220C3C26000155EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		975AC2F420C3C26000155EEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		975AC2F720C3C26000155EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		975AC2F920C3C26100155EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		975AC2FC20C3C26100155EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		975AC2FE20C3C26100155EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975AC30420C3D46F00155EEB /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		975AC31A20C9669E00155EEB /* e001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e001.png; sourceTree = "<group>"; };
+		975AC31B20C9669E00155EEB /* e001.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = e001.dae; sourceTree = "<group>"; };
+		975AC31E20C9754F00155EEB /* e001c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e001c.png; sourceTree = "<group>"; };
+		975AC31F20C9754F00155EEB /* e001b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e001b.png; sourceTree = "<group>"; };
+		975AC32A20C9767A00155EEB /* c16_sp_body1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c16_sp_body1.png; sourceTree = "<group>"; };
+		975AC32E20CF4FB400155EEB /* DragonQuestFC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DragonQuestFC.ttf; sourceTree = "<group>"; };
+		975AC33020D2677A00155EEB /* titlelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlelogo.png; sourceTree = "<group>"; };
+		975AC33720D2995500155EEB /* Slime_Assistant1_ColladaMax.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Slime_Assistant1_ColladaMax.DAE; sourceTree = "<group>"; };
+		975AC33920D2AD9C00155EEB /* Slime_Assistant3_ColladaMax.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Slime_Assistant3_ColladaMax.DAE; sourceTree = "<group>"; };
+		975AC33B20D2ADB100155EEB /* Slime_Low_ColladaMax.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Slime_Low_ColladaMax.DAE; sourceTree = "<group>"; };
+		975AC33D20D2ADC100155EEB /* c16_sp_body3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c16_sp_body3.png; sourceTree = "<group>"; };
+		975AC33E20D2ADC100155EEB /* c16_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c16_body.png; sourceTree = "<group>"; };
+		975AC34220D4C1F600155EEB /* BattleTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BattleTheme.mp3; sourceTree = "<group>"; };
+		975AC34320D4C1F700155EEB /* Overture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Overture.mp3; sourceTree = "<group>"; };
+		975AC34420D4C1F700155EEB /* Hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hit.mp3; sourceTree = "<group>"; };
+		975AC34820D4EA7200155EEB /* Victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Victory.mp3; sourceTree = "<group>"; };
+		975AC34E20D4F1E000155EEB /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bokeh.png; path = music/bokeh.png; sourceTree = "<group>"; };
+		975AC34F20D4F1E000155EEB /* Bokeh.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = Bokeh.scnp; path = music/Bokeh.scnp; sourceTree = "<group>"; };
+		975AC36020D54DE500155EEB /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		975AC36120D54DE500155EEB /* Fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Fire.scnp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		975AC2EC20C3C26000155EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		975AC2E620C3C26000155EEB = {
+			isa = PBXGroup;
+			children = (
+				975AC2F120C3C26000155EEB /* Quest */,
+				975AC2F020C3C26000155EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		975AC2F020C3C26000155EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				975AC2EF20C3C26000155EEB /* Quest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		975AC2F120C3C26000155EEB /* Quest */ = {
+			isa = PBXGroup;
+			children = (
+				975AC34120D4C1BC00155EEB /* music */,
+				975AC2F220C3C26000155EEB /* AppDelegate.swift */,
+				975AC31B20C9669E00155EEB /* e001.dae */,
+				975AC33720D2995500155EEB /* Slime_Assistant1_ColladaMax.DAE */,
+				975AC33E20D2ADC100155EEB /* c16_body.png */,
+				975AC33D20D2ADC100155EEB /* c16_sp_body3.png */,
+				975AC33920D2AD9C00155EEB /* Slime_Assistant3_ColladaMax.DAE */,
+				975AC33B20D2ADB100155EEB /* Slime_Low_ColladaMax.DAE */,
+				975AC32A20C9767A00155EEB /* c16_sp_body1.png */,
+				975AC33020D2677A00155EEB /* titlelogo.png */,
+				975AC31F20C9754F00155EEB /* e001b.png */,
+				975AC31E20C9754F00155EEB /* e001c.png */,
+				975AC31A20C9669E00155EEB /* e001.png */,
+				975AC32E20CF4FB400155EEB /* DragonQuestFC.ttf */,
+				975AC2F420C3C26000155EEB /* ViewController.swift */,
+				975AC30420C3D46F00155EEB /* ViewController2.swift */,
+				975AC2F620C3C26000155EEB /* Main.storyboard */,
+				975AC2F920C3C26100155EEB /* Assets.xcassets */,
+				975AC2FB20C3C26100155EEB /* LaunchScreen.storyboard */,
+				975AC2FE20C3C26100155EEB /* Info.plist */,
+				975AC34E20D4F1E000155EEB /* bokeh.png */,
+				975AC34F20D4F1E000155EEB /* Bokeh.scnp */,
+				975AC36020D54DE500155EEB /* spark.png */,
+				975AC36120D54DE500155EEB /* Fire.scnp */,
+			);
+			path = Quest;
+			sourceTree = "<group>";
+		};
+		975AC34120D4C1BC00155EEB /* music */ = {
+			isa = PBXGroup;
+			children = (
+				975AC34220D4C1F600155EEB /* BattleTheme.mp3 */,
+				975AC34820D4EA7200155EEB /* Victory.mp3 */,
+				975AC34320D4C1F700155EEB /* Overture.mp3 */,
+				975AC34420D4C1F700155EEB /* Hit.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		975AC2EE20C3C26000155EEB /* Quest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 975AC30120C3C26100155EEB /* Build configuration list for PBXNativeTarget "Quest" */;
+			buildPhases = (
+				975AC2EB20C3C26000155EEB /* Sources */,
+				975AC2EC20C3C26000155EEB /* Frameworks */,
+				975AC2ED20C3C26000155EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quest;
+			productName = Quest;
+			productReference = 975AC2EF20C3C26000155EEB /* Quest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		975AC2E720C3C26000155EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "西島志織";
+				TargetAttributes = {
+					975AC2EE20C3C26000155EEB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 975AC2EA20C3C26000155EEB /* Build configuration list for PBXProject "Quest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 975AC2E620C3C26000155EEB;
+			productRefGroup = 975AC2F020C3C26000155EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				975AC2EE20C3C26000155EEB /* Quest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		975AC2ED20C3C26000155EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975AC33820D2995600155EEB /* Slime_Assistant1_ColladaMax.DAE in Resources */,
+				975AC32F20CF500200155EEB /* DragonQuestFC.ttf in Resources */,
+				975AC2FD20C3C26100155EEB /* LaunchScreen.storyboard in Resources */,
+				975AC33120D2677A00155EEB /* titlelogo.png in Resources */,
+				975AC36220D54DE500155EEB /* spark.png in Resources */,
+				975AC32020C9754F00155EEB /* e001c.png in Resources */,
+				975AC31C20C9669E00155EEB /* e001.png in Resources */,
+				975AC36320D54DE500155EEB /* Fire.scnp in Resources */,
+				975AC2FA20C3C26100155EEB /* Assets.xcassets in Resources */,
+				975AC35120D4F1E100155EEB /* Bokeh.scnp in Resources */,
+				975AC34620D4C1F700155EEB /* Overture.mp3 in Resources */,
+				975AC34020D2ADC100155EEB /* c16_body.png in Resources */,
+				975AC34520D4C1F700155EEB /* BattleTheme.mp3 in Resources */,
+				975AC33C20D2ADB100155EEB /* Slime_Low_ColladaMax.DAE in Resources */,
+				975AC35020D4F1E100155EEB /* bokeh.png in Resources */,
+				975AC33F20D2ADC100155EEB /* c16_sp_body3.png in Resources */,
+				975AC2F820C3C26000155EEB /* Main.storyboard in Resources */,
+				975AC33A20D2AD9D00155EEB /* Slime_Assistant3_ColladaMax.DAE in Resources */,
+				975AC34720D4C1F700155EEB /* Hit.mp3 in Resources */,
+				975AC31D20C9669E00155EEB /* e001.dae in Resources */,
+				975AC32B20C9767A00155EEB /* c16_sp_body1.png in Resources */,
+				975AC32120C9754F00155EEB /* e001b.png in Resources */,
+				975AC34920D4EA7200155EEB /* Victory.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		975AC2EB20C3C26000155EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975AC2F520C3C26000155EEB /* ViewController.swift in Sources */,
+				975AC2F320C3C26000155EEB /* AppDelegate.swift in Sources */,
+				975AC30520C3D46F00155EEB /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		975AC2F620C3C26000155EEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				975AC2F720C3C26000155EEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		975AC2FB20C3C26100155EEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				975AC2FC20C3C26100155EEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		975AC2FF20C3C26100155EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		975AC30020C3C26100155EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		975AC30220C3C26100155EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6XCD236QD;
+				INFOPLIST_FILE = Quest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiorin.Quest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		975AC30320C3C26100155EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6XCD236QD;
+				INFOPLIST_FILE = Quest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiorin.Quest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		975AC2EA20C3C26000155EEB /* Build configuration list for PBXProject "Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975AC2FF20C3C26100155EEB /* Debug */,
+				975AC30020C3C26100155EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		975AC30120C3C26100155EEB /* Build configuration list for PBXNativeTarget "Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975AC30220C3C26100155EEB /* Debug */,
+				975AC30320C3C26100155EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 975AC2E720C3C26000155EEB /* Project object */;
+}
